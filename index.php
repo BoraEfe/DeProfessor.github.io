@@ -6,27 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>De Professor</title>
-    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="css/index.css">
     <script src="menuToggle.js"></script>
 </head>
 
 <body>
     <div class="header-content">
-        <img class="michelin1" src="/Images/michelin.png">
-        <img class="michelin2" src="/Images/michelin.png">
-        <img class="michelin3" src="/Images/michelin.png">
+        <img class="michelin1" src="Images/michelin.png">
+        <img class="michelin2" src="Images/michelin.png">
+        <img class="michelin3" src="Images/michelin.png">
         <div class="header-li">
             <ul>
                 <li>RESTAURANT</li>
             </ul>
         </div>
         <div class="foldmenu" onclick="toggleMenu()">
-            <img class="menu-icon" src="/Images/menu-icon.svg" with="30px" height="40px">
+            <img class="menu-icon" src="Images/menu-icon.svg" with="30px" height="40px">
         </div>
         <div id="slideMenu">
-            <p class="menuButtonText" onclick="location.href='/pages/menu.php'">menu</p>
-            <p class="loginButtonText" onclick="location.href='/pages/inlog.php'">inloggen</p>
-            <p class="RegisterButtonText" onclick="location.href='/pages/register.php'">Registreren</p>
+            <p class="menuButtonText" onclick="location.href='pages/menu.php'">menu</p>
+            <p class="loginButtonText" onclick="location.href='pages/inlog.php'">inloggen</p>
+            <p class="RegisterButtonText" onclick="location.href='pages/register.php'">Registreren</p>
         </div>
         <div class="header-box-title">
             De Professor
@@ -39,7 +39,7 @@
             De Professor
         </div>
         <div class="menu-item-box">
-            <p class="menuButtonText" onclick="location.href='/pages/menu.php'">Menu</p>
+            <p class="menuButtonText" onclick="location.href='pages/menu.php'">Menu</p>
         </div>
     </div>
     <div class="info-box">

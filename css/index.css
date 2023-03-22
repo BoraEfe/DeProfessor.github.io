@@ -61,7 +61,7 @@ li {
     filter: brightness(75%);
     filter: drop-shadow(10%);
     overflow-x: hidden;
-    background-image: url("/Images/homebanner3.jpg");
+    background-image: url("Images/homebanner3.jpg");
     background-position: bottom;
     background-repeat: no-repeat;
 }
@@ -101,22 +101,22 @@ li {
 
 @font-face {
     font-family: 'title';
-    src: url(/fonts/MeaCulpa-Regular.ttf);
+    src: url(fonts/MeaCulpa-Regular.ttf);
 }
 
 @font-face {
     font-family: 'italianno';
-    src: url(/fonts/Italianno-Regular.ttf)
+    src: url(fonts/Italianno-Regular.ttf);
 }
 
 @font-face {
     font-family: 'italiana';
-    src: url(/fonts/Italiana-Regular.ttf);
+    src: url(fonts/Italiana-Regular.ttf);
 }
 
 @font-face {
     font-family: 'inria';
-    src: url(/fonts/InriaSerif-Regular.ttf);
+    src: url(fonts/InriaSerif-Regular.ttf);
 }
 
 .info-box-title {
@@ -138,7 +138,7 @@ li {
 }
 
 .overonsmenu {
-    background-image: url("/Images/overonsmenu.jpg");
+    background-image: url("Images/overonsmenu.jpg");
     width: 500px;
     height: 200px;
     background-repeat: no-repeat;
