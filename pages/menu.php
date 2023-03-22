@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu</title>
-    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="css/index.css">
     <script src="../menuToggle.js"></script>
     <script src="https://kit.fontawesome.com/a2d23ebfd3.js" crossorigin="anonymous"></script>
 </head>
@@ -22,7 +22,7 @@
             </ul>
         </div>
         <div class="foldmenu" onclick="toggleMenu()">
-            <img class="menu-icon" src="/Images/menu-icon.svg" with="30px" height="40px">
+            <img class="menu-icon" src="Images/menu-icon.svg" with="30px" height="40px">
         </div>
         <div id="slideMenu">
             <p class="menuButtonText" onclick="location.href='../index.php'">home</p>
