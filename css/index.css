@@ -61,7 +61,7 @@ li {
     filter: brightness(75%);
     filter: drop-shadow(10%);
     overflow-x: hidden;
-    background-image: url("Images/homebanner3.jpg");
+    background-image: url("../Images/homebanner3.jpg");
     background-position: bottom;
     background-repeat: no-repeat;
 }
@@ -101,22 +101,22 @@ li {
 
 @font-face {
     font-family: 'title';
-    src: url(fonts/MeaCulpa-Regular.ttf);
+    src: url(../fonts/MeaCulpa-Regular.ttf);
 }
 
 @font-face {
     font-family: 'italianno';
-    src: url(fonts/Italianno-Regular.ttf);
+    src: url(../fonts/Italianno-Regular.ttf);
 }
 
 @font-face {
     font-family: 'italiana';
-    src: url(fonts/Italiana-Regular.ttf);
+    src: url(../fonts/Italiana-Regular.ttf);
 }
 
 @font-face {
     font-family: 'inria';
-    src: url(fonts/InriaSerif-Regular.ttf);
+    src: url(../fonts/InriaSerif-Regular.ttf);
 }
 
 .info-box-title {
@@ -138,7 +138,7 @@ li {
 }
 
 .overonsmenu {
-    background-image: url("Images/overonsmenu.jpg");
+    background-image: url("../Images/overonsmenu.jpg");
     width: 500px;
     height: 200px;
     background-repeat: no-repeat;
@@ -309,7 +309,9 @@ li {
     width:100%;
     height:40px;
     background-color: rgb(23, 23, 23);
-    margin-top:200px;
+    color:white;
+    margin-top:80px;
+
 }
 i{
     color:rgb(215, 211, 211);
@@ -324,4 +326,61 @@ i:hover{
     color:rgb(20, 179, 20);
     transition: 0.5s;
     scale:1.4;
+}
+body{
+    background-color: #221E1E;
+    text-align: center;
+}
+body form p #username{
+    width:100px;
+    height:20px;
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+}
+body form p #password{
+    width:100px;
+    height:20px;
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+}
+body form p{
+    color:white;
+}
+.inlog-menu-welkom{
+    width:100%;
+    height:50px;    
+    color:white;
+    margin-top:100px;
+    font-size: 35px;
+}
+.inlog-menu-welkom2{
+    width:100%;
+    height:50px;    
+    color:white;
+    margin-top:-10px;
+    font-size: 22px;
+}
+body form p #verzend{
+    width:100px;
+    height:20px;
+    color:rgb(0, 0, 0);
+    margin-top:20px;
+    border-radius: 20px;
+}
+.goback{
+    width:100px;
+    height:18px;
+    color:black;
+    background-color: white;
+    border-radius: 20px;
+    margin-top:10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.inlog-block{
+    width:500px;
+    height:280px;
+    background-color: rgb(62, 62, 62);
+    margin-left:auto;
+    margin-right:auto;
 }
