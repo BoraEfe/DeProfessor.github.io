@@ -299,8 +299,8 @@ li {
     background-color: rgb(255, 255, 255);
     justify-content:space-evenly;
     margin-left: 40px;
-    margin-top: 500px;
-    margin-bottom:-50px;   
+    margin-top: 50px;
+    margin-bottom:50px;   
 }
 .itembox-info{
     width:100%;
