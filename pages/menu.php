@@ -51,7 +51,7 @@
                 <div class="itembox-info">
                 ' . $row['product_name'] . '
                 ' . $row['product_info'] . '
-                ' . $row['prijs'] . '   
+                ' . $row['prijs'] . '    
                     <i class="fa-solid fa-plus fa-1x"></i>
                 </div>
             </div>

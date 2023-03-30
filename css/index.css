@@ -220,15 +220,13 @@ li {
     margin-bottom: 50%;
     margin-left: 5%;
 }
-
 @media only screen and (max-width: 500px) {
     .header-box {
         width: 200px;
         height: 100px;
 
     }
-}
-
+}   
 .michelin1{
     width: 37px;
     height: 30px;
@@ -281,10 +279,9 @@ li {
 }
 .menu-body{
     width:86%;
-    height:2000px;
+    height:auto;
     background-color: #1c1b1b;
     z-index:1;
-    float:right;
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
