@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,11 +9,15 @@
     <link rel="stylesheet" href="../css/index.css">
     <script src="../menuToggle.js"></script>
 </head>
+
 <body>
     <div class="header-content">
-        <div class="header-box-title">
-            Menu Editor
-      </div>
+        <div class="header-li">
+            <ul>
+                <li> Menu Editor</li>
+            </ul>
+        </div>
     </div>
 </body>
+
 </html>
