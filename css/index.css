@@ -384,4 +384,6 @@ body form p #verzend{
     margin-left:auto;
     margin-right:auto;
     background-color: #333131;
+    width:500px;
+    height:600px;
 }

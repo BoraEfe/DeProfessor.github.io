@@ -19,7 +19,8 @@
         </div>
     </div>
     <div class="editor-box">
-</div>
+        
+    </div>
 </body>
 
 </html>
