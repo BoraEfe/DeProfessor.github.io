@@ -18,6 +18,8 @@
             </ul>
         </div>
     </div>
+    <div class="editor-box">
+</div>
 </body>
 
 </html>

@@ -380,3 +380,8 @@ body form p #verzend{
     margin-left:auto;
     margin-right:auto;
 }       
+.editor-box{
+    margin-left:auto;
+    margin-right:auto;
+    background-color: #333131;
+}
