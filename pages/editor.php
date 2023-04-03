@@ -11,8 +11,7 @@
 <body>
     <div class="header-content">
         <div class="header-box-title">
-
-
+            Menu Editor
       </div>
     </div>
 </body>
