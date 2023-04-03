@@ -7,7 +7,6 @@
     <title>Editor</title>
     <link rel="stylesheet" href="../css/index.css">
     <script src="../menuToggle.js"></script>
-    <script src="https://kit.fontawesome.com/a2d23ebfd3.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="header-content">
