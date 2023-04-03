@@ -26,7 +26,7 @@
         </div>
         <div id="slideMenu">
             <p class="menuButtonText" onclick="location.href='../index.php'">home</p>
-            <p class="loginButtonText" onclick="location.href='/pages/inlog.php'">inloggen</p>
+            <p class="loginButtonText" onclick="location.href='../pages/inlog.php'">inloggen</p>
         </div>
         <div class="header-box-title">
             De Professor
