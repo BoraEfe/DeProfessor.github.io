@@ -20,7 +20,7 @@
     </div>
 
     <div class="editor-box">
-        <form name="editor" action="inlog2.php" method="post">
+        <form name="editor" action="editor.php" method="post">
             <p>voer productnaam in <input type="text" id="name" name="productname"></p>
             <p>voer productinfo in <input type="text" id="password" name="productinfo"></p>
             <p>voer prijs in <input type="float" id="password" name="prijs"></p>
