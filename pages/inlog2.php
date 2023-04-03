@@ -6,5 +6,5 @@
         $sql = "INSERT INTO users (username, password) VALUES (' $username  ', '  $password ')";
        $conn->exec($sql);
        // echo $username . " " . $password;        header('Location: index.php')   
-        header('Location: ../editor.html')
+        header('Location: ../editor.php')
      ?>
