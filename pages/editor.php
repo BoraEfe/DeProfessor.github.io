@@ -18,9 +18,8 @@
             </ul>
         </div>
     </div>
-
     <div class="editor-box">
-        <form name="editor" action="editor.php" method="post">
+        <form name="editor" action="editor2.php" method="post">
             <p>voer productnaam in <input type="text" id="productname" name="productname"></p>
             <p>voer productinfo in <input type="text" id="productinfo" name="productinfo"></p>
             <p>voer prijs in <input type="float" id="prijs" name="prijs"></p>
