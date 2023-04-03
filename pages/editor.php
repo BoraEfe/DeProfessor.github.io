@@ -14,7 +14,7 @@
     <div class="header-content">
         <div class="header-li">
             <ul>
-                <li> Menu Editor</li>
+                <li>Editor</li>
             </ul>
         </div>
     </div>
