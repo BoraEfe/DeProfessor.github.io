@@ -21,10 +21,10 @@
 
     <div class="editor-box">
         <form name="editor" action="editor.php" method="post">
-            <p>voer productnaam in <input type="text" id="name" name="productname"></p>
-            <p>voer productinfo in <input type="text" id="password" name="productinfo"></p>
-            <p>voer prijs in <input type="float" id="password" name="prijs"></p>
-            <p>voer image in <input type="varchar" id="password" name="image"></p>
+            <p>voer productnaam in <input type="text" id="productname" name="productname"></p>
+            <p>voer productinfo in <input type="text" id="productinfo" name="productinfo"></p>
+            <p>voer prijs in <input type="float" id="prijs" name="prijs"></p>
+            <p>voer image in <input type="varchar" id="image" name="image"></p>
             <p><input type="submit" id="verzend" name="verstuur" value="verzend"></p>
         </form>
     </div>
