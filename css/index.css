@@ -311,6 +311,7 @@ li {
 }
 .itembox-info-price{
     position: absolute;
+    display:flex;
 
 }
 i{
