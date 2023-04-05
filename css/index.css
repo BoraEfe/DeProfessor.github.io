@@ -309,6 +309,10 @@ li {
     color:white;
     margin-top:80px;
 }
+.itembox-info-price{
+    position: absolute;
+
+}
 i{
     color:rgb(215, 211, 211);
     float:right;

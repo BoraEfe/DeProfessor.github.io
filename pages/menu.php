@@ -27,6 +27,7 @@
         <div id="slideMenu">
             <p class="menuButtonText" onclick="location.href='../index.php'">home</p>
             <p class="loginButtonText" onclick="location.href='../pages/inlog.php'">inloggen</p>
+            <p class="RegisterButtonText" onclick="location.href='../pages/register.php'">Registreren</p>
         </div>
         <div class="header-box-title">
             De Professor
@@ -51,7 +52,9 @@
                 <div class="itembox-info">
                 ' . $row['product_name'] . '
                 ' . $row['product_info'] . '
-                ' . $row['prijs'] . '    
+                 <div class="itembox-info-price">
+                     ' . $row['prijs'] . ' 
+                  </div>   
                     <i class="fa-solid fa-plus fa-1x"></i>
                 </div>
             </div>

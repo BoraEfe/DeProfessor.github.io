@@ -6,4 +6,5 @@
         $image = $_POST['image']; 
         $sql = "INSERT INTO products (product_name, product_info, prijs, image) VALUES ('$productname','$productinfo','$prijs','$image')";
         $conn->exec($sql);  
-?>
+        header('Location: menu.php')
+?>    
