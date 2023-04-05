@@ -50,11 +50,8 @@
             <br>
              <img src="' . $row['image'] . '" width="170px" height="50px">
                 <div class="itembox-info">
-                ' . $row['product_name'] . '
-                ' . $row['product_info'] . '
-                 <div class="itembox-info-price">
-                     ' . $row['prijs'] . ' 
-                  </div>   
+                ' . $row['product_name'] . '    
+                €' . $row['prijs'] . ' 
                     <i class="fa-solid fa-plus fa-1x"></i>
                 </div>
             </div>
