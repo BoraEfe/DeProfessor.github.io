@@ -19,7 +19,7 @@
         <form name="inlog" action="inlog2.php" method="post">
             <p>voer username in <input type="text" id="username" name="username"></p>
             <p>voer wachtwoord in <input type="password" id="password" name="password"></p>
-            <p><input type="submit" id="verzend" name="verstuur" value="verzend"></p>
+            <p><input type="submit" id="verzend" name="login" value="login"></p>
         </form>
         <div class="goback" onclick="location.href='../index.php'">
             Terug
