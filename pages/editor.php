@@ -26,6 +26,7 @@
             <p>voer image in <input type="text" id="image" name="image"></p>
             <p><input type="submit" id="verzend" name="verstuur" value="verzend"></p>
         </form>
+        <p class="VerwijderButtonText" onclick="location.href= 'beheerder.php'">verwijder items</p>
     </div>
 </body>
 

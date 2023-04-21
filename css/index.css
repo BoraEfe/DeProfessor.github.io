@@ -31,7 +31,7 @@
     z-index: 4;
     position: relative;
     margin-left: 45%;
-    margin-right:50%;
+    margin-right: 50%;
 }
 
 ul {
@@ -212,7 +212,7 @@ li {
     border-radius: 10px;
     float: right;
     margin-right: 50px;
-    z-index:30;
+    z-index: 30;
 }
 
 .menu-icon {
@@ -220,177 +220,212 @@ li {
     margin-bottom: 50%;
     margin-left: 5%;
 }
+
 @media only screen and (max-width: 500px) {
     .header-box {
         width: 200px;
         height: 100px;
 
     }
-}   
-.michelin1{
+}
+
+.michelin1 {
     width: 37px;
     height: 30px;
     position: absolute;
     float: left;
     z-index: 10;
-    margin-top:85px;
-    margin-left:1%;
+    margin-top: 85px;
+    margin-left: 1%;
 }
-.michelin2{
+
+.michelin2 {
     width: 37px;
     height: 30px;
     position: absolute;
     float: left;
     z-index: 10;
-    margin-top:85px;
-    margin-left:3.3%;
+    margin-top: 85px;
+    margin-left: 3.3%;
 }
-.michelin3{
+
+.michelin3 {
     width: 37px;
     height: 30px;
     position: absolute;
     float: left;
     z-index: 10;
-    margin-top:85px;
-    margin-left:5.5%;
+    margin-top: 85px;
+    margin-left: 5.5%;
 }
+
 #slideMenu {
     display: none;
     background-color: rgb(24, 23, 23);
     width: 15%;
     height: 270px;
     position: absolute;
-    margin-left:82%;
-    margin-top:56px;
+    margin-left: 82%;
+    margin-top: 56px;
     z-index: 100;
     border-radius: 10px;
 }
-#slideMenu p{
-    color:white;
+
+#slideMenu p {
+    color: white;
     text-align: center;
-    margin-top:10px;
+    margin-top: 10px;
     font-family: 'inria';
-    font-size:20px;
+    font-size: 20px;
 }
-.menu-header-content{
+
+.menu-header-content {
     width: 100%;
     height: 90px;
     background-color: #1e1818;
 }
-.menu-body{
-    width:86%;
-    height:auto;
+
+.menu-body {
+    width: 86%;
+    height: auto;
     background-color: #1c1b1b;
-    z-index:1;
-    display:flex;
+    z-index: 1;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
-.menu-itemlist{
-    width:14%;
-    height:2000px;
-    float:left;
-    z-index:1;
-    background-color:#333131;
+
+.menu-itemlist {
+    width: 14%;
+    height: 2000px;
+    float: left;
+    z-index: 1;
+    background-color: #333131;
 }
-.itembox{
-    width:170px;
-    height:240px;
+
+.itembox {
+    width: 170px;
+    height: 240px;
     background-color: rgb(255, 255, 255);
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     margin-left: 40px;
     margin-top: 50px;
-    margin-bottom:- 10px;   
+    margin-bottom: - 10px;
 }
-.itembox-info{
-    width:100%;
-    height:40px;
+
+.itembox-info {
+    width: 100%;
+    height: 40px;
     background-color: rgb(23, 23, 23);
-    color:white;
-    margin-top:80px;
+    color: white;
+    margin-top: 80px;
 }
-.itembox-info-price{
+
+.itembox-info-price {
     position: absolute;
 
 }
-i{
-    color:rgb(215, 211, 211);
-    float:right;
+
+i {
+    color: rgb(215, 211, 211);
+    float: right;
     position: relative;
-    top:30%;
-    right:15px;
+    top: 30%;
+    right: 15px;
     cursor: pointer;
     transition: 0.5s;
 }
-i:hover{
-    color:rgb(20, 179, 20);
+
+i:hover {
+    color: rgb(20, 179, 20);
     transition: 0.5s;
-    scale:1.4;
+    scale: 1.4;
 }
-body{
+
+body {
     background-color: #1c1b1b;
     text-align: center;
 }
-body form p #username{
-    width:100px;
-    height:20px;
+
+body form p #username {
+    width: 100px;
+    height: 20px;
     background-color: rgb(255, 255, 255);
-    color:rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
 }
-body form p #password{
-    width:100px;
-    height:20px;
+
+body form p #password {
+    width: 100px;
+    height: 20px;
     background-color: rgb(255, 255, 255);
-    color:rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
 }
-body form p{
-    color:white;
+
+body form p {
+    color: white;
 }
-.inlog-menu-welkom{
-    width:100%;
-    height:50px;    
-    color:white;
-    margin-top:100px;
+
+.inlog-menu-welkom {
+    width: 100%;
+    height: 50px;
+    color: white;
+    margin-top: 100px;
     font-size: 35px;
 }
-.inlog-menu-welkom2{
-    width:100%;
-    height:50px;    
-    color:white;
-    margin-top:-10px;
+
+.inlog-menu-welkom2 {
+    width: 100%;
+    height: 50px;
+    color: white;
+    margin-top: -10px;
     font-size: 22px;
 }
-body form p #verzend{
-    width:100px;
-    height:20px;
-    color:rgb(0, 0, 0);
-    margin-top:20px;
+
+body form p #verzend {
+    width: 100px;
+    height: 20px;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
     border-radius: 20px;
 }
-.goback{
-    width:100px;
-    height:18px;
-    color:black;
+
+.goback {
+    width: 100px;
+    height: 18px;
+    color: black;
     background-color: white;
     border-radius: 20px;
-    margin-top:10px;
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
 }
-.inlog-block{
-    width:500px;
-    height:280px;
+
+.inlog-block {
+    width: 500px;
+    height: 280px;
     background-color: rgb(62, 62, 62);
-    margin-left:auto;
-    margin-right:auto;
-}       
-.editor-box{
-    margin-left:auto;
-    margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.editor-box {
+    margin-left: auto;
+    margin-right: auto;
     background-color: #333131;
-    width:200px;
-    height:300px;
-    margin-top:50px;
-    margin-bottom:50px;
-    padding-top:20px;
+    width: 200px;
+    height: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+}
+
+.VerwijderButtonText {
+    color: black;
+    background: white;
+    width: 110px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 20px;                                                                                                                                                                                                                                
 }

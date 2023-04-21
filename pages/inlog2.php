@@ -10,6 +10,9 @@ $user = $stmt->fetch();
 // echo $username . " " . $password;   header('Location: editor.php')   
 if ($user) {
   //inloggegevens zijn correct
+  session_start();
+  $_SESSION["user_id"] = $username;
+
   header('location: editor.php');
 } else{
   // inloggegevens zijn onjuist
